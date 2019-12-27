@@ -1,0 +1,82 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+.rectangle {
+border: 3px dashed grey;
+background: rgba(255,255,255,0.4);
+position: absolute;
+}
+#canvas {
+position:relative;
+border:1px solid grey;
+}
+#canvasDiv {
+position: absolute;
+top:0;
+left:0;
+cursor:crosshair;
+}
+#btnUndo {
+display:none;
+float:right;
+margin-top:4px;
+cursor: pointer;
+}
+#okvirCard{
+    width:514px;
+    height:200px;
+}
+#Normal {
+   position: absolute;
+   top:5px;
+   left:515px;
+}
+#okvir{
+    width:800px;
+}
+h2{
+    font-size: 1em;
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+.card{
+    width:120px;
+    height: 140px;
+    border:0.3px solid black;
+    float:left;
+    margin-left: 1%;
+    cursor: pointer;
+
+}
+.canvasi{
+    width:100px;
+    height:100px;
+    margin-left: 10px;
+    
+}
+.dugme {
+    background: none;
+    border: 2px solid black;
+    font-weight: bold ;
+    width:70px;
+    margin-left:5px;
+    cursor: pointer;
+}
+.tools{
+    width:120px;
+    position: absolute;
+    top:160px;
+    left:535px;
+}
+#rotate{
+    position: absolute;
+    top:190px;
+    left:559px;
+}
+#btnRotate{
+
+    background: none;
+    border: 2px solid black;
+    font-weight: bold ;
+}
